@@ -9,3 +9,55 @@
   font-variation-settings:
     "slnt" 0;
 }
+
+/* shared style here */
+.display-flex {
+    display: flex;
+}
+/* Hex-text -color */
+.text-color {
+    color: #FFFFFF;
+}
+/* Hex-btn-orange-color */
+.btn-primary {
+    color:#E6533C;
+}
+/* Hex-gray-color */
+.background-color {
+    color: rgba(185, 185, 185, 1);
+
+}
+/* run section-bsckcolor */
+.run-back {
+    color: #222222;
+}
+
+
+/* header style here */
+
+
+/* navbar style here */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+
+}
+.brand {
+    font-weight: 800px;
+    font-size: 2.3rem;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500px;
+}
+.navbar,.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
