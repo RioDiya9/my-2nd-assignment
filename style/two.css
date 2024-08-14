@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     background-color: rgba(17, 17, 17, 1); */
+     background-color: rgba(17, 17, 17, 1); 
      max-width: 1440px;
 }
 .inter-uniquifier-font {
@@ -13,9 +13,9 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-   background-color:#B9B9B9 ;
+
 }
-  
+
 
 
 
@@ -68,19 +68,42 @@ main {
 main > section {
     margin-top: 100px;
 }
+.instraction {
+    font-weight: 600px;
+    font-size: 1.3rem;
+    margin: 10px 10px;
+    color: rgba(255, 255, 255, 1);
+}
+.instraction-2{
+    font-weight: 400px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 /* header-style start */
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+}
+.fact-card {
+    border:1px solid red;
+    width: 160px;
+    height: 197px;
 
+
+}
 
 /* navbar style here */
 .navbar {
     justify-content: space-between;
+    margin:57px 190px 610px ;
     align-items: center;
-    
+
 }
 .nav-item {
     list-style: none;
     margin-right: 47px;
+    /* align-items: center; */
 }
 
 .nav-links{
@@ -88,12 +111,14 @@ main > section {
     font-weight: 400px;
     font-size:1.3rem;
     color:#FFFFFF;
+    /* align-items: center; */
     /* margin: 57px 190px 612px; */
 }
 
 .navbar,.banner {
     max-width: 1440px;
      margin: 0 auto;
+     align-items: center;
     /* margin: 57px 190px 612px;  */
 }
 .bg-light {
@@ -173,16 +198,9 @@ main > section {
      max-width: 1044px;
      height: 274px;
      margin: 58px 198px 100px;
+     border-radius: 50%;
+     text-align: center;
 }
-.workout-features {
-    /* display: grid; */
-    /* grid-template-columns:repeat(8,2fr) ;  */
-    margin: 30px 40px;
-    max-width: 231px;
+.workout-img-container img {
+    border-radius: 50%;
 }
-
-
-
-
-
-
