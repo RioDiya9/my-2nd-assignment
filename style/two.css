@@ -1,10 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     background-color: rgba(17, 17, 17, 1); */
+     max-width: 1440px;
+}
 .inter-uniquifier-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+   background-color:#B9B9B9 ;
 }
+  
+
+
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+/* dark-1 */
+.text-gray {
+    color: #FFFFFF;
+}
+
+/* dark-2 */
+.text-light-gray {
+    color: #B9B9B9;
+}
+/* orange-1 */
+.text-orange {
+    color: #E6533C;
+}
+/* dark-3 */
+.bg-dark {
+    color:rgba(17, 17, 17, 1);
+}
+
+/* btn-style */
+.btn-primary-1{
+    background-color: #E6533C;
+    color:#FFFFFF;
+    padding: 9px 20px;
+    border-radius: 46px;
+}
+.btn-primary-2{
+    background-color: #E6533C;
+    color:#FFFFFF;
+    padding: 16px 80px;
+    border-radius: 42px;
+}
+.btn-primary-3 {
+    background-color:rgba(17, 17, 17, 1);
+    color:#FFFFFF;
+    padding: 16px 80px;
+    border-radius: 42px;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section {
+    margin-top: 100px;
+}
+
+/* header-style start */
+
+
+/* navbar style here */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-item {
+    list-style: none;
+    margin-right: 47px;
+}
+
+.nav-links{
+    text-decoration: none;
+    font-weight: 400px;
+    font-size:1.3rem;
+    color:#FFFFFF;
+    /* margin: 57px 190px 612px; */
+}
+
+.navbar,.banner {
+    max-width: 1440px;
+     margin: 0 auto;
+    /* margin: 57px 190px 612px;  */
+}
+.bg-light {
+    max-width: 1440px;
+    height: 715px;
+    margin: 0 auto;
+}
+.brand {
+    font-weight: 800px;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.nav-items {
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+/* banner style here */
+
+.banner {
+    justify-content: space-between;
+}
+.banner-content {
+    max-width: 520px;
+    margin: 0 auto; 
+    margin: 99px 40px 76px 100px;
+
+}
+
+.banner-title {
+    font-weight: 900px;
+    font-size: 5rem;
+}
+
+.banner-description {
+    font-weight: 400px;
+    font-size: 1rem;
+    /* border:1px solid red; */
+    margin: 20px 10px 10px 10px;
+}
+
+.banner-img {
+    max-width: 100%;
+    /* border: 1px solid red; */
+    margin: 32px 24px 0 87px;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+#unic-text {
+    font-family: miama;
+    font-size: 100px;
+
+}
+
+/* workout style start here */
+.workout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.workout-title {
+    font-weight: 900px;
+    font-size: 3rem;
+}
+.workout-description {
+    font-weight: 400px;
+    font-size: 14px;
+}
+.workout-img-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     gap: 1px;
+     max-width: 1044px;
+     height: 274px;
+     margin: 58px 198px 100px;
+}
+.workout-features {
+    /* display: grid; */
+    /* grid-template-columns:repeat(8,2fr) ;  */
+    margin: 30px 40px;
+    max-width: 231px;
+}
+
+
+
+
+
 
