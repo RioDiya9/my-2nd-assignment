@@ -31,8 +31,9 @@
 
 /* dark-2 */
 .text-light-gray {
-    color: #B9B9B9;
+    color: rgba(255, 255, 255, 0.5);
 }
+
 /* orange-1 */
 .text-orange {
     color: #E6533C;
@@ -78,6 +79,7 @@ main > section {
     font-weight: 400px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
+    text-align: center;
 }
 
 /* header-style start */
@@ -204,3 +206,43 @@ main > section {
 .workout-img-container img {
     border-radius: 50%;
 }
+.workout div {
+    text-align: center;
+}
+
+/* 3rd section start here */
+.run {
+    justify-content: space-between;
+    text-align: center;
+    width: 1060px;
+    height: 350px;
+    margin: 100px 190px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 10px;
+
+
+}
+.run-img {
+    width: 336px;
+    height: 312px;
+    border-radius: 20px;
+    margin: 11px 32px 165px;
+}
+.run-container {
+    display: grid;
+    grid-template-columns: none;
+    margin: 40px 0px 40px 165px;
+    gap: 30px;
+    background-color: rgba(34, 34, 34, 1);
+}
+.h3{
+    font-weight: 900px;
+    font-size: 3rem;
+    background-color:rgba(34, 34, 34, 1);
+    text-align: left;
+}
+.p {
+    background-color: rgba(34, 34, 34, 1);
+    text-align:left;
+};
+
