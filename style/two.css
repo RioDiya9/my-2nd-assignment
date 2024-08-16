@@ -31,7 +31,7 @@
 
 /* dark-2 */
 .text-light-gray {
-    color: rgba(255, 255, 255, 0.5);
+    color: #B9B9B9;
 }
 
 /* orange-1 */
@@ -244,5 +244,27 @@ main > section {
 .p {
     background-color: rgba(34, 34, 34, 1);
     text-align:left;
-};
+}
+/* section4 style here */
+.grid-area{
+    width:100%;
+    height: 100%;
+}
+.ex-big img{
+    justify-content: space-between;
+    align-items: center;
+        gap: 30px;
+        background-color: rgba(34, 34, 34, 1);
+        height: 20%;
+        width: 30%;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 10px;
+}
+.h1 ,.p{
+    text-align: center;
+}
+.vertical-colups img {
+    height: 20%;
+}
 
