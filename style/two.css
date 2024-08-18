@@ -308,6 +308,19 @@ img {
     display: grid;
     grid-template-columns: repeat(6,3fr);
 }
+/* from start here */
+.from {
+    background-color: rgba(34, 34, 34, 1);
+}
+.new {
+    width: 75%;
+    margin: auto;
+    padding: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+/* team secton */
 
 
 
